@@ -23,6 +23,7 @@ namespace SistemadeRecursosHumanosBancoAgricola
             miConexion.ConnectionString = cadena;
             miConexion.Open();
         }
+        //
 
             public BAgriDataSet obtener_datosEmpleados()
         {
